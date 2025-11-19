@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nail Glam - Professional nail salon offering manicures, pedicures, and stunning nail art designs in Johannesburg">
+  <meta name="keywords" content="nail salon, manicure, pedicure, nail art, Johannesburg, beauty salon">
+  <meta name="author" content="Lungelo Nxam">
+  <title>Book Appointment - Nail Glam Enquiry Form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Sitemap reference for search engines -->
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+</head>
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>Make an Enquiry</h1>
+    <p class="tagline">Send us your questions or booking requests — we'll get back to you shortly.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="services.html">Services</a> |
+    <a href="enquiry.html">Enquiry</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Enquiry Form with Validation -->
+  <form id="enquiryForm" novalidate>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required>
+    <span class="error-message" id="nameError"></span><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required>
+    <span class="error-message" id="emailError"></span><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required>
+    <span class="error-message" id="phoneError"></span><br><br>
+
+    <label for="service">Service Interested In:</label><br>
+    <select id="service" name="service">
+      <option value="">Select a service</option>
+      <option value="manicure">Manicure</option>
+      <option value="pedicure">Pedicure</option>
+      <option value="nail-art">Nail Art</option>
+      <option value="both">Both Manicure & Pedicure</option>
+    </select><br><br>
+
+    <label for="date">Preferred Date:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+
+    <label for="message">Your Enquiry:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" required></textarea>
+    <span class="error-message" id="messageError"></span><br><br>
+
+    <input type="submit" value="Submit Enquiry">
+    <div id="formMessage" class="form-message"></div>
+  </form>
+
+  <img src="images/R (1).jfif" alt="Nail Glam enquiry and booking services" width="400">
+
+  <footer>
+    <p>© 2025 Nail Glam. Created by Lungelo Nxam.</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a> | 
+      <a href="contact.html">Contact Us</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+# Nail Glam Salon - Robots.txt
+# Created: 2025-11-19
+# Author: Lungelo Nxam
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://nailglam.co.za/sitemap.xml
+
+# Allow all major search engine crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# Disallow access to private folders
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /backup/
+
+# Allow CSS and JavaScript for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow query parameters that might cause duplicate content
+Disallow: /*?*
+Disallow: /*&*
+
+# Allow specific file types
+Allow: *.css$
+Allow: *.js$
+Allow: *.png$
+Allow: *.jpg$
+Allow: *.jpeg$
+Allow: *.gif$
+Allow: *.webp$
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1
+
+# Specific rules for development/staging environments
+User-agent: *
+Disallow: /staging/
+Disallow: /test/
+Disallow: /dev/
+
+# Welcome message for crawlers
+# Thank you for crawling our website! 
+# Nail Glam Salon - Professional Nail Services in Johannesburg

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Homepage - Highest priority -->
+  <url>
+    <loc>https://nailglam.co.za/index.html</loc>
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Services page -->
+  <url>
+    <loc>https://nailglam.co.za/services.html</loc>
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- About page -->
+  <url>
+    <loc>https://nailglam.co.za/about.html</loc>
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contact page -->
+  <url>
+    <loc>https://nailglam.co.za/contact.html</loc>
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Enquiry/Booking page -->
+  <url>
+    <loc>https://nailglam.co.za/enquiry.html</loc>
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- CSS file (important for SEO) -->
+  <url>
+    <loc>https://nailglam.co.za/style.css</loc>
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- JavaScript file -->
+  <url>
+    <loc>https://nailglam.co.za/script.js</loc>
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

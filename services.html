@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nail Glam - Professional nail salon offering manicures, pedicures, and stunning nail art designs in Johannesburg">
+  <meta name="keywords" content="nail salon, manicure, pedicure, nail art, Johannesburg, beauty salon">
+  <meta name="author" content="Lungelo Nxam">
+  <title>Nail Services - Manicures, Pedicures & Nail Art | Nail Glam</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Sitemap reference for search engines -->
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+</head>
+</head>
+<body>
+  <header>
+    <h1>Our Services</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+     
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Search Services</h2>
+      <input id="search" placeholder="Type to filter services...">
+      <div id="services-list">
+        <p class="service-item">Pedicure</p>
+        <p class="service-item">Nail Designs</p>
+        <p class="service-item">Manicure</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Service Details</h2>
+
+      <div class="accordion-title" data-target="pedicure">Pedicure</div>
+      <div id="pedicure" class="accordion-content">
+        <p>Relaxing pedicure treatments to keep your feet soft and healthy. Price: R150</p>
+        <img class="lightbox-trigger" src="images/download.webp" alt="Pedicure">
+      </div>
+
+      <div class="accordion-title" data-target="designs">Nail Designs</div>
+      <div id="designs" class="accordion-content">
+        <p>Trendy and cool designs to make a statement. Price: from R120</p>
+        <img class="lightbox-trigger" src="images/772ba5b5991fa0bc9f537a32daad988d.jpg" alt="Nail design">
+      </div>
+
+      <h3>Price Table</h3>
+      <table>
+        <tr><th>Service</th><th>From (R)</th></tr>
+        <tr><td>Pedicure</td><td>150</td></tr>
+        <tr><td>Nail Design</td><td>120</td></tr>
+        <tr><td>Manicure</td><td>100</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <div id="lightbox" aria-hidden="true"><img id="lightbox-img" alt="Enlarged"></div>
+
+  <footer><p>&copy; 2025 Glam Nails</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
